@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "mrsf:mrsfaxe"
+    },
+    "title": {
+      "translate": "advancements.greatestaxe.title"
+    },
+    "description": {
+      "translate": "advancements.greatestaxe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "greatestaxe_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mrsf:mrsfaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "mrsf:greatestsword"
+}

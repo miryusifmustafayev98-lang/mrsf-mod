@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "mrsf:mrsfhoe"
+    },
+    "title": {
+      "translate": "advancements.greatesthoe.title"
+    },
+    "description": {
+      "translate": "advancements.greatesthoe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "greatesthoe_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mrsf:mrsfhoe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "mrsf:greatestsword"
+}

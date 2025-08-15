@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "mrsf:mrsfpickaxe"
+    },
+    "title": {
+      "translate": "advancements.greatestpickaxe.title"
+    },
+    "description": {
+      "translate": "advancements.greatestpickaxe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "greatestpickaxe_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mrsf:mrsfpickaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "mrsf:greatestsword"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "mrsf:mrsf_chestplate",
+    "count": 1
+  }
+}
